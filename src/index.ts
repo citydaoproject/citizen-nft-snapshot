@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const CONTRACT_ADDRESS = '0x7eef591a6cc0403b9652e98e88476fe1bf31ddeb';
 
-async function getAllOwners() {
+async function snapshot() {
   await Moralis.start({ serverUrl: process.env.SERVER_URL, appId: process.env.APP_ID });
 
   let cursor = null;
@@ -72,4 +72,4 @@ async function getAllOwners() {
   console.log('snapshot complete');
 }
 
-getAllOwners();
+snapshot();
