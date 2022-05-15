@@ -1,0 +1,34 @@
+{
+  "name": "citizen-nft-snapshot",
+  "version": "1.0.0",
+  "description": "Simple script to snapshot Citizen NFT holders",
+  "main": "index.js",
+  "scripts": {
+    "snapshot": "npx ts-node src/index.ts",
+    "pretty": "pretty-quick",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citydaoproject/citizen-nft-snapshot.git"
+  },
+  "author": "CityDAO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/citydaoproject/citizen-nft-snapshot/issues"
+  },
+  "homepage": "https://github.com/citydaoproject/citizen-nft-snapshot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "moralis": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "eslint": "^8.15.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "pretty-quick": "^3.1.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}

@@ -1,3 +1,7 @@
+# Snapshots
+snapshot.json
+total_mints.json
+
 # Logs
 logs
 *.log
